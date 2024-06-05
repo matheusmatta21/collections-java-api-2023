@@ -1,14 +1,23 @@
-package carrinho_compras;
+package OperacoesBasicas.carrinho_compras;
 
 public class Item {
-    private String nome;
-    private double preco;
-    private int quantidade;
+    private final String nome;
+    private final double preco;
+    private final int quantidade;
 
     public Item(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
+    }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "nome='" + nome + '\'' +
+                ", preco=" + preco +
+                ", quantidade=" + quantidade +
+                '}';
     }
 
     public String getNome() {
@@ -21,14 +30,5 @@ public class Item {
 
     public int getQuantidade() {
         return quantidade;
-    }
-
-    @Override
-    public String toString() {
-        return "Item{" +
-                "nome='" + nome + '\'' +
-                ", preco=" + preco +
-                ", quantidade=" + quantidade +
-                '}';
     }
 }

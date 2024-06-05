@@ -1,7 +1,7 @@
-package lista_tarefas;
+package OperacoesBasicas.lista_tarefas;
 
 public class Tarefa {
-    private String descricao;
+    private final String descricao;
 
     public Tarefa(String descricao) {
         this.descricao = descricao;
