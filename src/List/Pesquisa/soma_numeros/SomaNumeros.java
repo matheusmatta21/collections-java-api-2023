@@ -1,4 +1,4 @@
-package Pesquisa.soma_numeros;
+package List.Pesquisa.soma_numeros;
 
 import java.util.ArrayList;
 import java.util.List;

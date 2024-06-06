@@ -1,4 +1,4 @@
-package Pesquisa.catalogo_livros;
+package List.Pesquisa.catalogo_livros;
 
 public class Livro {
     private final String titulo;
